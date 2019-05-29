@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="bundle.js"></script>
+    <title>Weekday Finder</title>
+  </head>
+  <body>
+    <h1>Find the day of the week!</h1>
+    <form id="date-form">
+      <label for="month">Enter a month:</label>
+      <select name="month">
+        <option value="01">January</option>
+        <option value="02">February</option>
+        <option value="03">March</option>
+        <option value="04">April</option>
+        <option value="05">May</option>
+        <option value="06">June</option>
+        <option value="07">July</option>
+        <option value="08">August</option>
+        <option value="09">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+      </select>
+
+      <label for="day">Enter a day:</label>
+      <input name="year" id="day" type="number" min="1" max="31">
+
+      <label for="year">Enter a year:</label>
+      <input type="number" name="year" id="year">
+      <button type="submit">Submit</button>
+    </form>
+    <div id="solution"></div>
+  </body>
+</html>
