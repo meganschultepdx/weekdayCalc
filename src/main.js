@@ -12,7 +12,7 @@ $(document).ready(function() {
     let year = $('#year').val();
     let myDate = new Date(year, month, day);
     let weekday = weekdayCalc(myDate);
-    console.log(weekday);
+    console.log(myDate);
       $('#solution').text(`The day of the week is ${weekday}`);
   });
 });
