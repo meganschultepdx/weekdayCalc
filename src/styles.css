@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Raleway&display=swap');
+
 body {
-  background-color: #7FDBFF;
+  background-color: #94849B;
+  text-align: center;
+}
+
+
+h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-family: 'Raleway', fantasy;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+#date-form form {
+  text-align: center;
+  font: 18px;
 }
